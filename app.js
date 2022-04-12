@@ -33,7 +33,7 @@ const getCat = function () {
 const loadCat = function (catsImgUrl) {
   return `
     <h3 class="app__art-title"></h3>
-    <a class="app__art-url" href='${catsImgUrl}' target='_blank'><img class="app__art-image-url" src=''></a>
+    <a class="app__art-url" href='${catsImgUrl}' target='_blank'><img class="app__art-image-url" src='${catsImgUrl}'></a>
     `;
 };
 
